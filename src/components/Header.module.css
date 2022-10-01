@@ -1,0 +1,11 @@
+
+.header_box{
+    text-align: center;
+    background-color: aqua;
+    padding: 1rem;
+    margin-bottom: 10px;
+}
+
+.header_title{
+    color: blue;
+}
