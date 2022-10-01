@@ -1,11 +1,33 @@
 
 .header_box{
     text-align: center;
-    background-color: aqua;
+    background-color: teal;
     padding: 1rem;
     margin-bottom: 10px;
 }
 
 .header_title{
-    color: blue;
+    color: grey;
+}
+
+.header_header {
+    /* text-shadow: 1px 1px 1px lightblue, 2px 2px 1px blue;
+    font-size: 40px; */
+    margin: 0;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0ee6b7;
+    color: transparent;
+    font-family: Poppins-Bold;
+    font-size: 5rem;
+    overflow: visible;
+
+}
+
+.header_text{
+    color: white;
+    font-family: Poppins-Bold;
+    font-size: 20px;
+    font-weight: 300;
+
 }

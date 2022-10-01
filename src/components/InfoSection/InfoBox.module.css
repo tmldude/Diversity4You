@@ -1,14 +1,45 @@
 .box{
-    display: flex;
+    /* display: flex; */
 
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
-    min-width: 35%;
-    max-width: 45%;
+    /* min-width: 35%; */
+    /* width: 400px;
     margin: 20px;
     background-color: aliceblue;
-    padding: 4px 10px 4px 4px;
+    padding: 4px 10px 4px 4px; */
 
+    background-color: aliceblue;
     border-radius: 2px;
-    box-shadow: 5px 10px rgba(160, 234, 255);
+    box-shadow: 5px 10px rgba(160, 234, 255); 
+    display: block;
+    /* box-shadow: 0 0 10px rgb(0 0 0 / 20%); */
+    box-sizing: border-box;
+    clear: both;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
 }
+
+.box_image{
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.box_name{
+    /* float: right; */
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    /* height: 100px; */
+    /* width: 100%; */
+    text-transform: uppercase;
+
+}
+
+.box_text{
+    margin-top: 12px;
+    /* display: inline; */
+}   
