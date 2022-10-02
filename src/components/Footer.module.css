@@ -16,6 +16,7 @@
 @media screen and (max-width: 768px) {
   .footer_section{
     flex-direction: column;
+    justify-content: center;
 
   }
   .about_box {
