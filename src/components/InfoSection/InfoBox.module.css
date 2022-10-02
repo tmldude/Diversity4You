@@ -8,15 +8,17 @@
     margin: 20px;
     background-color: aliceblue;
     padding: 4px 10px 4px 4px; */
+    display: flex;
 
     background-color: aliceblue;
     border-radius: 2px;
     box-shadow: 5px 10px rgba(160, 234, 255); 
-    display: block;
     /* box-shadow: 0 0 10px rgb(0 0 0 / 20%); */
     box-sizing: border-box;
+    
     clear: both;
     margin: 10px;
+    margin-right: 4px;
     padding: 10px;
     width: 400px;
 }
@@ -43,3 +45,8 @@
     margin-top: 12px;
     /* display: inline; */
 }   
+
+.box_link{
+    text-decoration: none;
+    color: lightseagreen
+}
