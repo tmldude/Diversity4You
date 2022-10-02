@@ -1,52 +1,73 @@
-.box{
-    /* display: flex; */
+.box {
+  /* display: flex; */
 
-    /* justify-content: space-between; */
+  /* justify-content: space-between; */
 
-    /* min-width: 35%; */
-    /* width: 400px;
+  /* min-width: 35%; */
+  /* width: 400px;
     margin: 20px;
     background-color: aliceblue;
     padding: 4px 10px 4px 4px; */
-    display: flex;
+  display: flex;
 
-    background-color: aliceblue;
-    border-radius: 2px;
-    box-shadow: 5px 10px rgba(160, 234, 255); 
-    /* box-shadow: 0 0 10px rgb(0 0 0 / 20%); */
-    box-sizing: border-box;
-    
-    clear: both;
-    margin: 10px;
-    margin-right: 4px;
-    padding: 10px;
-    width: 400px;
+  position: relative;
+  /* flex-basis: calc(50% - 50px);
+flex-grow: 0;
+flex-shrink: 0;
+max-width: calc(50% - 50px); */
+  /* height: 300px; */
+  display: inline;
+  /* justify-content: flex-start;
+align-items: flex-start; */
+  margin: auto;
+  transition: 0.5s;
+  flex-direction: column;
+  width: auto;
+  max-width: 600px;
+
+  background-color: #9df9ef;
+  border-radius: 20px;
+  box-shadow: 5px 10px #edf7f6;
+  box-sizing: border-box;
+  margin: 10px;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+
+  padding: 10px;
+  
 }
 
-.box_image{
-    float: left;
-    margin-right: 10px;
-    width: 100px;
-    height: 100px;
+.box_image {
+  float: left;
+  margin: 10px 10px 0 10px;
+  width: 100px;
+  height: 100px;
 }
 
-.box_name{
-    /* float: right; */
-    padding: 0;
-    margin: 0;
-    margin-top: 15px;
-    /* height: 100px; */
-    /* width: 100%; */
-    text-transform: uppercase;
-
+.box_name {
+  float: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  /* height: 100px; */
+  /* width: 100%; */
+  text-transform: uppercase;
 }
 
-.box_text{
-    margin-top: 12px;
-    /* display: inline; */
-}   
+.box_text {
+  margin-top: 50px;
+  margin-left: 6.5px;
+  margin-right: 6.5px;
 
-.box_link{
-    text-decoration: none;
-    color: lightseagreen
+  font-weight: 500;
+}
+
+.box_link {
+  text-decoration: none;
+  color: lightseagreen;
+}
+
+.box:hover {
+  transform: translateY(-10px) translateX(-2px);
 }

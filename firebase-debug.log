@@ -1,0 +1,77 @@
+[debug] [2022-10-02T07:23:58.564Z] ----------------------------------------------------------------------
+[debug] [2022-10-02T07:23:58.566Z] Command:       C:\Users\tmlaz\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy --only functions
+[debug] [2022-10-02T07:23:58.566Z] CLI Version:   11.13.0
+[debug] [2022-10-02T07:23:58.566Z] Platform:      win32
+[debug] [2022-10-02T07:23:58.566Z] Node Version:  v16.16.0
+[debug] [2022-10-02T07:23:58.567Z] Time:          Sun Oct 02 2022 03:23:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-10-02T07:23:58.567Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-02T07:23:58.623Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-02T07:23:58.624Z] > authorizing via signed-in user (tmlazar913@gmail.com)
+[debug] [2022-10-02T07:23:58.624Z] [iam] checking project diversity4you-e9599 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2022-10-02T07:23:58.626Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions [none]
+[debug] [2022-10-02T07:23:58.626Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions x-goog-quota-user=projects/diversity4you-e9599
+[debug] [2022-10-02T07:23:58.626Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-10-02T07:23:58.920Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions 200
+[debug] [2022-10-02T07:23:58.920Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-10-02T07:23:58.920Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-10-02T07:23:58.921Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-10-02T07:23:59.089Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-10-02T07:23:59.089Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'diversity4you-e9599'...
+[info] 
+[info] i  deploying functions 
+[debug] [2022-10-02T07:23:59.206Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:372:5)
+    at validateString (node:internal/validators:120:11)
+    at Object.join (node:path:429:7)
+    at Config.path (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\config.js:123:45)
+    at getChildEnvironment (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:51:49)
+    at runTargetCommands (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:72:14)
+    at C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:124:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async chain (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\index.js:33:9)
+    at async deploy (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\index.js:68:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-10-02T07:24:10.300Z] ----------------------------------------------------------------------
+[debug] [2022-10-02T07:24:10.302Z] Command:       C:\Users\tmlaz\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase deploy
+[debug] [2022-10-02T07:24:10.303Z] CLI Version:   11.13.0
+[debug] [2022-10-02T07:24:10.303Z] Platform:      win32
+[debug] [2022-10-02T07:24:10.303Z] Node Version:  v16.16.0
+[debug] [2022-10-02T07:24:10.304Z] Time:          Sun Oct 02 2022 03:24:10 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-10-02T07:24:10.304Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-02T07:24:10.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-02T07:24:10.362Z] > authorizing via signed-in user (tmlazar913@gmail.com)
+[debug] [2022-10-02T07:24:10.362Z] [iam] checking project diversity4you-e9599 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-10-02T07:24:10.364Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions [none]
+[debug] [2022-10-02T07:24:10.364Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions x-goog-quota-user=projects/diversity4you-e9599
+[debug] [2022-10-02T07:24:10.364Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-02T07:24:10.611Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions 200
+[debug] [2022-10-02T07:24:10.611Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/diversity4you-e9599:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","datastore.indexes.create","datastore.indexes.delete","datastore.indexes.list","datastore.indexes.update","firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-10-02T07:24:10.611Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-10-02T07:24:10.612Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-10-02T07:24:10.775Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-10-02T07:24:10.775Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/diversity4you-e9599/serviceAccounts/diversity4you-e9599@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-10-02T07:24:10.776Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/diversity4you-e9599 [none]
+[debug] [2022-10-02T07:24:11.140Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/diversity4you-e9599 200
+[debug] [2022-10-02T07:24:11.140Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/diversity4you-e9599 {"projectId":"diversity4you-e9599","projectNumber":"218087701115","displayName":"Diversity4You","name":"projects/diversity4you-e9599","resources":{"hostingSite":"diversity4you-e9599","storageBucket":"diversity4you-e9599.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_c414d0b3-177d-422a-9f3e-0b92c46d22e0"}
+[info] 
+[info] === Deploying to 'diversity4you-e9599'...
+[info] 
+[info] i  deploying firestore, functions, hosting 
+[debug] [2022-10-02T07:24:11.268Z] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:372:5)
+    at validateString (node:internal/validators:120:11)
+    at Object.join (node:path:429:7)
+    at Config.path (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\config.js:123:45)
+    at getChildEnvironment (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:51:49)
+    at runTargetCommands (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:72:14)
+    at C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:124:24
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async chain (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\index.js:33:9)
+    at async deploy (C:\Users\tmlaz\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\deploy\index.js:68:5)
+[error] 
+[error] Error: An unexpected error has occurred.
