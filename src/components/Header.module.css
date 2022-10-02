@@ -81,6 +81,8 @@
 @media screen and (max-width: 768px) {
   .header_header::after {
     width: 4rem;
+    margin-left: 25px;
+
   }
 }
 
