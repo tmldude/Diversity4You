@@ -2,7 +2,7 @@ import React from "react";
 
 import InfoBox from "./InfoBox";
 import styles from "./InfoSection.module.css";
-import image from "../../assets/man.jpg";
+// import image from "../../assets/man.jpg";
 import image1 from "../../assets/img1.jpg";
 import image2 from "../../assets/img2.jpg";
 import image3 from "../../assets/img3.jpg";
