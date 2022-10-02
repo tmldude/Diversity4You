@@ -78,6 +78,14 @@
   /* box-shadow: 0px 0px 2px #000; */
 }
 
+@media screen and (max-width: 768px) {
+  .header_header::after {
+    width: 4rem;
+  }
+}
+
+
+
 .header_text {
   text-align: right;
   margin-right: 50px;
