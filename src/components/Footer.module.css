@@ -13,6 +13,17 @@
   padding: 0 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .footer_section{
+    flex-direction: column;
+
+  }
+  .about_box {
+    width: 80%;
+
+  }
+}
+
 .about_box_h1 {
 }
 
