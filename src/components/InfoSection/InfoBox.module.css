@@ -40,8 +40,7 @@ align-items: flex-start; */
 
 @media screen and (max-width: 768px) {
   .box{
-    max-width: 550px;
-
+    max-width: 500px;
   }
 }
 
@@ -77,4 +76,17 @@ align-items: flex-start; */
 
 .box:hover {
   transform: translateY(-10px) translateX(-2px);
+}
+
+@media screen and (max-width: 768px) {
+
+  .box_name{
+    font-size: 20px;
+  }
+
+  .box_link {
+    font-size: 15px;
+    text-decoration: none;
+    color: lightseagreen;
+  }
 }
